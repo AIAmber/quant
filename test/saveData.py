@@ -11,9 +11,9 @@ def reqData(url, dataNum):
 	r = requests.get(url)
 	# r.status_code
 
-	print(r.text)
+	# print(r.text)
 
-	with open(htmlPwd) as htmlFile:
+	with open(htmlPwd, 'w') as htmlFile:
 		htmlFile.write(r.text)
 
 while True:
