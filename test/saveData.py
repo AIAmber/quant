@@ -5,7 +5,7 @@ import time
 
 dataNum = 'sz000672'
 url = "http://hq.sinajs.cn/list="+dataNum
-htmlPwd = "../www/test.html"
+htmlPwd = "/axebox/code/quant/www/test.html"
 
 def reqData(url, dataNum):
 	r = requests.get(url)
