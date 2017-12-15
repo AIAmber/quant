@@ -15,3 +15,7 @@ def reqData(url, dataNum):
 
 	with open(htmlPwd) as htmlFile:
 		htmlFile.write(r.text)
+
+while True:
+	reqData(url, dataNum)
+	time.sleep(1.7)
