@@ -12,7 +12,7 @@ port = '5432'
 # db = connDB(databaseName, username, password, host, port)
 conn = psycopg2.connect(database='quant', user='postgres', password='Bang103.', host='localhost', port='5432')
 cur = conn.cursor()
-cur.execute("INSERT INTO t_test_name (name) VALUES ('%s')" %('sssss'))
+cur.execute("INSERT INTO t_test_name (name) VALUES ('%s')")
 conn.commit()
 conn.close()
 print("Success!")

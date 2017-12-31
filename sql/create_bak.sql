@@ -1,8 +1,8 @@
--- Table: leolee.t_stock_sz000672_bak
+-- Table: postgres.t_stock_sz000672_bak
 
--- DROP TABLE leolee.t_stock_sz000672_bak;
+-- DROP TABLE postgres.t_stock_sz000672_bak;
 
-CREATE TABLE leolee.t_stock_sz000672_bak
+CREATE TABLE postgres.t_stock_sz000672_bak
 (
     stock_name character varying COLLATE pg_catalog."default" NOT NULL,
     price character varying COLLATE pg_catalog."default",
@@ -36,10 +36,10 @@ WITH (
 )
 TABLESPACE pg_default;
 
-ALTER TABLE leolee.t_stock_sz000672_bak
-    OWNER to leolee;
-COMMENT ON TABLE leolee.t_stock_sz000672_bak
+ALTER TABLE postgres.t_stock_sz000672_bak
+    OWNER to postgres;
+COMMENT ON TABLE postgres.t_stock_sz000672_bak
     IS 't_stock_sz000672';
 
-COMMENT ON COLUMN leolee.t_stock_sz000672_bak.stock_name
+COMMENT ON COLUMN postgres.t_stock_sz000672_bak.stock_name
     IS 'stock_name';
