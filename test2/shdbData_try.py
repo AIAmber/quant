@@ -59,7 +59,7 @@ def reqData(url, dataNum):
 	# conn.close()
 	# print("Success!")
 
-while ins < 4788:
+while ins < 20:
 	reqData(url, dataNum)
 	dsls=[]
 	time.sleep(1.7)
