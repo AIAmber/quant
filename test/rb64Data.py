@@ -5,7 +5,7 @@ import base64
 import time
 
 dataNum = 'sz000672'
-url = "http://120.76.145.62/test/test.html"
+url = "http://120.76.145.62/test/testMult.html"
 
 def reqData(url, dataNum):
 	r = requests.get(url)
